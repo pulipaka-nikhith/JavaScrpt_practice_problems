@@ -1,0 +1,18 @@
+const btsCharacters=["RM",'JIN','SUGA','J-HOPE','JIMIN','V','JUNGKOOK'];
+btsCharacters.forEach(function(n){
+    console.log(n);
+});
+//above is forEach for anomous function
+function print(n)
+{
+    console.log(n);
+}
+btsCharacters.forEach(print);
+
+//to print the index of element
+//then syntax forEach(arrelement, index)
+
+btsCharacters.forEach(function(n,index)
+{
+    console.log(`${n} element index is ${index}`);
+});
